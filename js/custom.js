@@ -2,8 +2,7 @@
 // Timer for yuvaan
 var timer;
 
-var compareDate = new Date();
-compareDate.setDate(compareDate.getDate() + 50); //add the Number of days left. 
+var compareDate = new Date("2018-01-15"); // add the yuvaan date in the brackets
 
 timer = setInterval(function() {
   timeBetweenDates(compareDate);
@@ -91,7 +90,7 @@ $(document).ready(function() {
   -----------------------------------------------*/
   $(document).ready(function() {
     $("#owl-speakers").owlCarousel({
-      autoPlay: 6000,
+      autoPlay: 2000,
       items : 4,
       itemsDesktop : [1199,2],
       itemsDesktopSmall : [979,1],
