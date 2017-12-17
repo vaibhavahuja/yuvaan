@@ -2,7 +2,7 @@
 // Timer for yuvaan
 var timer;
 
-var compareDate = new Date("2018-01-15"); // add the yuvaan date in the brackets
+var compareDate = new Date("2018-01-18"); // add the yuvaan date in the brackets
 
 timer = setInterval(function() {
   timeBetweenDates(compareDate);
